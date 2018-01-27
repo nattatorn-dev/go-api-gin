@@ -1,0 +1,16 @@
+
+# project
+vendor
+bin
+config
+
+# gomon
+gomon_spawn
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+
+# idea
+.idea/
