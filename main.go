@@ -18,6 +18,7 @@ import (
 var db *dynamo.DB
 var awsdb *dynamodb.DynamoDB
 
+
 func setupRouter() *gin.Engine {
 	// Disable Console Color
 	// gin.DisableConsoleColor()
@@ -59,4 +60,3 @@ func main() {
 
 	r.Run(":" + config.GetString("port"))
 }
-
